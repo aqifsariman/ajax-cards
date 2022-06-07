@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AJAX CARDS</title>
+</head>
+
+<body>
+  <h1>Registration</h1>
+  <div class="form">
+    <form action="/register" method="post">
+      <label for="email">Email:</label>
+      <input type="text" name="email">
+      <br>
+      <br>
+      <label for="password">Password:</label>
+      <input type="password" name="password">
+      <input type="submit" id="submitBtn">
+    </form>
+    <h3>Already registered? Login <a href="/login">here</a></h3>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="./public/script.js"></script>
+</body>
+
+</html>
